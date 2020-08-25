@@ -1,0 +1,163 @@
+@charset "utf-8";
+#banner{
+    overflow: hidden;
+}
+#banner .ban-con{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+#banner .ban-con img{
+    display: block;
+    position: absolute;
+    left:50%;
+    margin-left: -960px;
+}
+
+/* 内容 */
+/* #main{
+    position: relative;
+} */
+.main-con{
+    width: 1200px;
+    min-height: 793px;
+   
+    /* position: absolute; */
+    margin: 0 auto;
+    /* background: white; */
+}
+.main-top{
+    width: 1102px;
+    height: 42px;
+    border-bottom: 1px solid #666666;
+    margin-left: 100px;
+    position: relative;
+}
+.top-nav{
+    /* width: 193px; */
+    height: 20px;
+    position: absolute;
+    right:0;
+    bottom: 0;
+}
+.main-top li{
+    float: left;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+}
+.xk1{
+    width: 146px;
+    height: 37px;
+    background: url(../images/images/设计团队线条1_03.png)no-repeat center;
+}
+.xk1 h2{
+    font-size: 22px;
+    text-align: center;
+}
+.main-bottom{
+    width: 1200px;
+    /* height: 600px; */
+}
+.bottom-L{
+    float: left;
+    width: 225px;
+    height: 204px;
+    background: url(../images/images/设计团队线条2_03.png) no-repeat 10px;
+}
+.bottom-L ul{
+    padding:30px 0 0 56px ;
+}
+.bottom-L li{
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 30px;
+}
+.bottom-R{
+    width: 975px;
+    float: right;
+    position: relative;
+}
+.bigbox{
+    position: absolute;
+    top:0;
+    left: 0;
+    background: white;
+}
+.bottom-R .bottom-RT{
+    width: 976px;
+    height: 293px;
+    /* background: pink; */
+}
+.bottom-RTL{
+    width: 700px;
+}
+.box-1{
+    width: 359px;
+    height: 35px;
+    margin-bottom: 16px;
+    background: url(../images/images/设计团队剪刀线条1_03.png)no-repeat bottom;
+}
+.box-1 p{
+    font-size: 18px;
+    display: inline;
+    /* margin-bottom:48px; */
+}
+.box-1 span{
+    font-size: 14px;
+   margin-left: 5px;
+    margin-bottom:48px;
+}
+.bottom-RTL{
+    font-size: 13px;
+    line-height: 22px;
+    float: left;
+}
+
+.box-2{
+    width: 182px;
+    height: 35px;
+    margin-top: 40px;
+    margin-bottom: 16px;
+    background: url(../images/images/设计团队剪刀线条1_06.png)no-repeat bottom;
+}
+.box-2 p{
+    font-size: 18px;
+    display: inline;
+    margin: 16px 0 ;
+}
+.box-2 span{
+    font-size: 14px;
+   margin-left: 5px;
+}
+.bottom-RTR{
+    width: 273px;
+    height: 294px;
+    float: right;
+}
+
+.bottom-RB{
+    width: 976px;
+}
+.box-3{
+    width: 976px;
+    height: 35px;
+    margin: 28px 0 22px 0;
+    background: url(../images/images/设计团队剪刀线条1_09.png)no-repeat bottom;
+}
+
+.box-3 p{
+    font-size: 18px;
+    display: inline; 
+   
+}
+.box-3 span{
+    font-size: 14px;
+   margin-left: 5px;
+
+}
+.bottom-RB img{
+    float: left;
+    margin:0 27px;
+}

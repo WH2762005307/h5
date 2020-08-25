@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* banner */
+#banner{
+    overflow: hidden;
+}
+.ban-con{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    /* background: yellow; */
+    position: relative;
+}
+.ban-con img{
+    display: block;
+    position: absolute;
+    left:50%;
+    margin-left: -960px;
+}
+
+
+
+
+
+
+/* 内容 */
+
+.main-con{
+    width: 1200px;
+    min-height: 793px;
+    margin: 0 auto;
+    
+}
+.main-top{
+    width: 1102px;
+    height: 42px;
+    border-bottom: 1px solid #666666;
+    margin-left: 100px;
+    position: relative;
+}
+.top-nav{
+   
+    height: 20px;
+    position: absolute;
+    right:0;
+    bottom: 0;
+}
+.main-top li{
+    float: left;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+}
+.xk1{
+    width: 146px;
+    height: 37px;
+    background: url(../images/images/设计团队线条1_03.png)no-repeat center;
+}
+.xk1 h2{
+    font-size: 22px;
+    text-align: center;
+}
+.main-R{
+    width: 1016px;
+    /* height: 50px; */
+    /* background: pink; */
+    float: right;
+}
+.box-1{
+    width: 1016px;
+    height: 90px;
+    /* background: red; */
+    margin-bottom: 50px;
+}
+.box-1L{
+    width: 102px;
+    /* height: 90px; */
+    /* background: yellow; */
+    float: left;
+    border: 1px solid #666666;
+}
+.box-1L-t{
+    width: 102px;
+    height: 42px;
+    /* background: goldenrod; */
+}
+.box-1L-b{
+    width: 102px;
+    height: 48px;
+    background: #666666;
+}
+.box-1L p{
+    font-size: 14px;
+    text-align: center;
+    line-height: 42px;
+}
+
+.box-1R{
+    width: 884px;
+    height: 92px;
+    /* background: purple; */
+    float: right;
+}
+.box-1R h3{
+    font-size: 18px;
+    display:inline-block;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #666666;
+}
+.box-1R p{
+    font-size: 12px;
+    line-height: 20px;
+    color: #666666;
+}

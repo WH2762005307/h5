@@ -1,0 +1,187 @@
+@charset "utf-8";
+#banner{
+    overflow: hidden;
+}
+.ban-con{
+    width: 1200px;
+    height: 398px;
+    margin: 0 auto;
+    /* background: yellow; */
+    position: relative;
+}
+.ban-con img{
+    display: block;
+    position: absolute;
+    left:50%;
+    margin-left: -960px;
+}
+
+/* 内容1 */
+.main-con{
+    width: 1200px;
+    height: 880px;
+    margin: 0 auto;
+    /* background: pink; */
+}
+.main-top{
+    width: 1100px;
+    height: 50px;
+    border-bottom: 1px solid #666666;
+    margin-left: 100px;
+}
+.top-R{
+    float: right;
+    margin-top: 26px;
+}
+.main-top li{
+    float: left;
+}
+.top-1{
+    height: 30px;
+    width: 1200px;
+}
+.top-1 h1{
+    font-size: 22px;
+    line-height: 30px;
+}
+.box1{
+    width: 1200px;
+    height: 782px;
+    /* background: red; */
+}
+.box-L{
+    width: 210px;
+    height: 782px;
+    float: left;
+}
+.box-L p{
+    margin: 30px 0 0 40px;
+}
+.box-R{
+    width: 990px;
+    height: 782px;
+    float: right;
+    display: none;
+}
+.box-R1{
+    width: 477px;
+    /* height: 782px; */
+    /* background: pink; */
+    float: left;
+}
+.box-R1 .R1-1{
+    width: 452px;
+    height: 48px;
+    border-bottom: 1px solid #666666;
+}
+.box-R1 .R1-1 p{
+    font-size: 14px;
+    line-height: 48px;
+}
+.box-R1 .R1-2{
+    width: 452px;
+    margin: 22px 0;
+}
+.box-R1 span{
+    font-size: 12px;
+    line-height: 22px;
+}
+.box-R2{
+    width: 513px;
+    height: 612px;
+    /* background: red; */
+    float: right;
+    position: relative;
+}
+.R2-1{
+    width: 80px;
+    height: 77px;
+    background: #666666;
+    float: right;
+}
+.R2-2{
+    width: 406px;
+    height: 540px;
+    border: 1px solid #666666;
+    margin-top: 71px;
+    position: absolute;
+    bottom: 0;
+}
+.box-R2 img{
+    display: block;
+    position: absolute;
+    top:22px;
+    left:38px
+}
+
+/* 内容2 */
+.box-R3{
+    width: 990px;
+    height: 782px;
+    float: right;
+    /* background: pink;
+    display: none; */
+}
+.R2-top{
+    width: 990px;
+    height: 416px;
+    /* background: red; */
+}
+.top-L{
+    width: 500px;
+    height: 416px;
+    float: left;
+    /* background: yellow; */
+}
+.top-L1{
+    width: 477px;
+    height: 42px;
+    border-bottom: 1px solid #666666 ;
+    
+}
+.top-L1 P{
+    font-size: 16px;
+    line-height: 42px;
+    display: inline-block;
+}
+.top-L1 span{
+    font-size: 10px;
+}
+.top-L2{
+    width: 477px;
+    margin: 26px 0 41px 0;
+}
+.top-L2 span{
+    font-size: 12px;
+    line-height: 22px;
+}
+.top-L3{
+    width: 500px;
+    height: 238px;
+    /* background: pink; */
+}
+.top-R2{
+    width:490px ;
+    height: 416px;
+    float: right;
+}
+.R2-botn{
+    width: 990px;
+    height: 340px;
+    /* background: pink; */
+    position: relative;
+}
+.botn1{
+    width: 530px;
+    height: 192px;
+    background: #f3f3f3;
+    float: left;
+    margin-top: 74px;
+}
+.R2-botn img{
+    display: block;
+    /* float: right; */
+    position: absolute;
+    right: 0;
+    top:50px
+}

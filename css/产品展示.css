@@ -1,0 +1,123 @@
+@charset "utf-8";
+#banner{
+    overflow: hidden;
+}
+.ban-con{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    /* background: yellow; */
+    position: relative;
+}
+.ban-con img{
+    display: block;
+    position: absolute;
+    left:50%;
+    margin-left: -960px;
+}
+
+
+/* 内容 */
+/* #main{
+    min-height: 930px;
+} */
+.main-con{
+    width: 1200px;
+    min-height: 606px;
+    margin: 0 auto;
+    position: relative;
+}
+.main-top{
+    width: 1102px;
+    height: 42px;
+    border-bottom: 1px solid #666666;
+    margin-left: 100px;
+    position: relative;
+}
+.top-nav{
+    /* width: 193px; */
+    height: 20px;
+    position: absolute;
+    right:0;
+    bottom: 0;
+}
+.main-top li{
+    float: left;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+}
+.mian-bottom{
+    width:1200px ;
+    /* height: 568px; */
+}
+.main-L{
+    width: 190px;
+    /* height: 560px; */
+    float: left;
+    /* background: pink; */
+}
+.main-L h1{
+    font-size: 22px;
+    margin: 8px 0 8px 18px;
+}
+.main-L li{
+    font-size: 16px; 
+    line-height: 16px;
+    margin:30px 0 30px 29px ;
+}
+.main-R{
+    width: 1010px;
+    height:560px ;
+    background: white;
+    float: right;
+   position: absolute;
+   right: 0;
+   /* overflow: hidden; */
+}
+
+.R-top{
+    /* width: 132px; */
+    height: 54px;
+    border-bottom: 1px solid #666666;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+.R-top P{
+    font-size: 16px;
+    display: inline-block;
+    line-height: 54px;
+
+}
+.R-top span{
+    font-size: 12px;
+}
+.main-R .R-mind{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 30px;
+    width: 1010px;
+}
+
+.main-R .imgs{
+    float: left;
+    margin-right: 40px;
+}
+.imgs p{
+    font-size: 12px;
+    text-align: center;
+    line-height: 76px;
+}
+.Ybox .imgs{
+     width: 180px;
+     height: 220px;
+      margin:26px 36px 20px 36px;
+}
+.main-R .Ybox img {
+    width: 100%;
+    height: 100%;
+   
+}
+.Ybox .imgs p{
+    line-height: 50px;
+}

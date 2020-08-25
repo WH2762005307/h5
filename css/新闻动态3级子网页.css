@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* banner */
+#banner{
+    overflow: hidden;
+}
+.ban-con{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    /* background: yellow; */
+    position: relative;
+}
+.ban-con img{
+    display: block;
+    position: absolute;
+    left:50%;
+    margin-left: -960px;
+}
+
+
+
+/* 内容 */
+
+.main-con{
+    width: 1200px;
+    min-height: 2364px;
+    margin: 0 auto;
+    /* background: pink; */
+}
+.main-top{
+    width: 1102px;
+    height: 42px;
+    border-bottom: 1px solid #666666;
+    margin-left: 100px;
+    position: relative;
+}
+.top-nav{
+   
+    height: 20px;
+    position: absolute;
+    right:0;
+    bottom: 0;
+}
+.main-top li{
+    float: left;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+}
+.xk1{
+    width: 146px;
+    height: 37px;
+    background: url(../images/images/设计团队线条1_03.png)no-repeat center;
+}
+.xk1 h2{
+    font-size: 22px;
+    text-align: center;
+}
+.main-R{
+    width: 1016px;
+    height: 50px;
+    /* background: red; */
+    float: right;
+    position: relative;
+}
+.box-1 {
+    text-align: center;
+    position: absolute;
+    top:0;
+    left: 0;
+    background: white;
+}
+.box-1 h3{
+    font-size: 22px;
+    line-height: 50px;
+    display: inline-block;
+    border-bottom: 1px solid #666666;
+    margin-bottom: 40px;
+}
+.box-1 p{
+    font-size: 12px;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 54px;
+}
+.box-1 .imgs{
+    height: 545px;
+}
+.box-1 img{
+    display:block;
+    float: left;
+    
+}
+.hr{
+    margin: 78px 0 24px 0;
+    height: 1016px;
+    height: 14px;
+    background: red;
+    background: url(../images/images/3级子网页线条_03.png)no-repeat center;
+}
